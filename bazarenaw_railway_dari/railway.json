@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    { "name": "mongo", "options": { "install": true } }
+  ],
+  "build": {
+    "backend": { "path": "backend", "start": "npm start", "install": "npm install" },
+    "frontend": { "path": "frontend", "start": "npm run preview", "install": "npm install" }
+  }
+}
